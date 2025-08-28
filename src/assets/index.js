@@ -41,6 +41,8 @@ import isimg from './isimg.png'
 import plani from './plani.png'
 import travelGO from "./travelGo.png"
 import petpair from "./petpair.png"
+import ai from "./ai.png";
+import food_vision from "./food_vision.jpg";
 export {
   logo,
   backend,
@@ -82,5 +84,7 @@ export {
   isimg,
   petpair,
   travelGO,
-  plani
+  plani,
+  ai,
+  food_vision
 };

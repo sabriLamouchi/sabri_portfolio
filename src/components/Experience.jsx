@@ -8,6 +8,7 @@ import { textVariant } from '../utils/motion';
 import { experiences } from '../constants';
 
 
+// eslint-disable-next-line react/prop-types
 export const  ExperienceCard=({experience})=>{
   return(
   <VerticalTimelineElement 

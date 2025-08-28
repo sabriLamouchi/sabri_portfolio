@@ -26,7 +26,9 @@ import {
     isimg,
     petpair,
     travelGO,
-    plani
+    plani,
+    ai,
+    food_vision
   } from "../assets";
   
   export const navLinks = [
@@ -60,6 +62,10 @@ import {
     {
       title: "Graphic designer",
       icon: designer,
+    },
+    {
+      title: "AI developer",
+      icon: web,
     },
   ];
   
@@ -159,6 +165,26 @@ import {
       points: [
         "I am currently enrolled in the esteemed software engineering program at ISIMG (Institut Supérieur d'Informatique et de Multimédia de Gabès). This renowned institution provides a conducive learning environment where I am equipped with the knowledge, skills, and resources necessary to thrive in the realm of software engineering.",
         "In addition to academic rigor, ISIMG places a strong emphasis on professional development. Through workshops, seminars, and industry collaborations, I am gaining valuable insights into industry trends, best practices, and emerging technologies. These opportunities not only augment my academic learning but also prepare me for a successful career in software engineering",
+      ],
+    },
+    {
+      title: "Ui/UX Designer",
+      company_name: "for my self",
+      icon: figma,
+      iconBg: "#E6DEDD",
+      date: "feb 2024 - until now",
+      points: [
+        "I’m a passionate UI/UX designer with hands-on experience creating user-friendly, modern, and visually engaging interfaces using Figma. My focus is on blending creativity with functionality—transforming ideas into intuitive designs that enhance the user journey. From wireframes to high-fidelity prototypes, I enjoy turning complex problems into simple, elegant solutions that deliver real value to users",
+      ],
+    },
+    {
+      title: "AI Developer",
+      company_name: "for my self/isimg",
+      icon: ai,
+      iconBg: "#E6DEDD",
+      date: "sep 2024 - until now",
+      points: [
+        "I have practical experience in AI, deep learning, and machine learning, working with models to solve real-world problems such as image recognition, natural language processing, and predictive analytics. My skills include building and training neural networks, fine-tuning pre-trained models, and evaluating performance using advanced frameworks. I enjoy exploring how intelligent systems can optimize decision-making, automate processes, and create innovative solutions",
       ],
     },
   ];
@@ -386,6 +412,29 @@ import {
       source_code_link: "https://github.com/sabriLamouchi/Travel-go-React-native-app.git",
       live_link:"#",
       status:"Process"
+    },
+    {
+      name: "Food Vision",
+      description:
+        "Food Vision is a lightweight, real-time food detection project built end-to-end with Python and Ultralytics YOLO (v8/v11). I curated a multi-class dataset (up to ~20k images) with Roboflow, fine-tuned pretrained weights, and evaluated with mAP/precision/recall to balance accuracy and speed. The model is exported to ONNX/TFLite with post-training quantization for fast, inference on mobile—ideal for calorie tracking, the app build it with React Native.",
+      tags: [
+        {
+          name: "react native",
+          color: "text-blue-500",
+        },
+        {
+          name: "pyton",
+          color: "text-neutral-500",
+        },
+        {
+          name: "YoloV8/YoloV11",
+          color: "text-orange-500",
+        },
+      ],
+      image:food_vision,
+      source_code_link: "https://github.com/sabriLamouchi/Food_Detection_reactNativeExpoApp_Yolo",
+      live_link:"#",
+      status:"completed"
     },
   ];
   
